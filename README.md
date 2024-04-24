@@ -13,8 +13,8 @@ function MakeScriptHub()
 end
 
 OrionLib:MakeNotification({
-	Name = "Logged In!",
-	Content = "You need key "..Player.Name..".",
+	Name = "Logado!",
+	Content = "Precisa de key"..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 }) --Notification
@@ -38,19 +38,19 @@ Tab:AddTextbox({
 }) --You Will Enter The Key Here
 
 Tab:AddButton({
-    Name = "Check Key",
+    Name = "Cheque Key",
     Callback = function()
         if getgenv().KeyInput == getgenv().Key then
             OrionLib:MakeNotification({
-                Name = "Checking Key",
-                Content = "Checking The Key You Entered",
+                Name = "Checando key",
+                Content = "Checando sua key",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
             wait(2)
             OrionLib:MakeNotification({
-                Name = "Correct Key!",
-                Content = "The key you entered is Correct.",
+                Name = "Correta!",
+                Content = "",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
@@ -60,15 +60,15 @@ Tab:AddButton({
             MakeScriptHub()
         else
            OrionLib:MakeNotification({
-                Name = "Checking Key",
-                Content = "Checking The Key You Entered",
+                Name = "Checando key",
+                Content = "Checando sua key",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
             wait(2)
             OrionLib:MakeNotification({
-                Name = "Incorrect Key!",
-                Content = "The key you entered is incorrect.",
+                Name = "Incorreta ",
+                Content = ")CheckLanguage:=Eng:Incorrect Key Lol",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
@@ -77,14 +77,14 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 local Tab = Window:MakeTab({
-	Name = "Get Keyless",
+	Name = "Pegue Keyless",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 }) --Making A Tab
 
 
 Tab:AddButton({
-	Name = "Copy Key",
+	Name = "Copie a Key",
 	Callback = function()
       		setclipboard("FAzure") --This Will Copy The Link Of The Key
   	end    
