@@ -1,4 +1,24 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+OrionLib:MakeNotification({
+	Name = "Checando Https",
+	Content = "Demora um pouco",
+	Image = "rbxassetid://4483345998",
+	Time = 8
+})
+wait(4)
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+OrionLib:MakeNotification({
+	Name = "Https Encontrado! Iniciando protocolo",
+	Content = "start loadingstring orionlib-",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+wait(5)
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
   local Window = OrionLib:MakeWindow({
 		Name = "Hub Key System🔒🔑",
