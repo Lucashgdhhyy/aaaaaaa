@@ -29,7 +29,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-   loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/Lucashgdhhyy/AAA/main/README.md"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucashgdhhyy/AAA/main/README.md"))() 
 end
 
 OrionLib:MakeNotification({
