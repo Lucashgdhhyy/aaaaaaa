@@ -1,0 +1,9 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
+  local Window = OrionLib:MakeWindow({
+		Name = "F Azure🔥",
+		HidePremium = false,
+		SaveConfig = true,                    
+		ConfigFolder = "OrionTest",
+        IntroText = "Loading F Azure...."       
+})
