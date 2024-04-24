@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/Lucashgdhhyy/aaaaaaa/main/NoKey"))  --Put The Script That Will Load If The Key Is Correct Here
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucashgdhhyy/aaaaaaa/main/README.md"))()
 end
 
 OrionLib:MakeNotification({
